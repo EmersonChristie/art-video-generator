@@ -1,6 +1,6 @@
 # Art Video Generator
 
-### Under COnstruction
+### Under Construction
 
 Generates a video for simulating previewing artwork on a wall for gallery marketing purposes. Given an art image,
 title, and dimensions the app will generate a video that zooms in to show the details of the art on a wall. Demo coming soon.
