@@ -28,7 +28,7 @@ export const RemotionVideo: React.FC = () => {
 				width={1920}
 				height={1080}
 				defaultProps={{
-					artFile: 'art1',
+					filePath: '/Users/patriciaqualls/dev/art-video-generator/src/static/artImages/wide.jpg',
 				}}
 			/>
 		</>

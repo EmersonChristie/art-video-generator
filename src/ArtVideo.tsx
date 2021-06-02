@@ -1,7 +1,7 @@
 import {interpolate, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Artwork} from './ArtVideo/Artwork';
 
-export const ArtVideo: React.FC<{artFile: string}> = ({artFile}) => {
+export const ArtVideo: React.FC<{filePath: string}> = ({filePath}) => {
 	const frame = useCurrentFrame();
 	const videoConfig = useVideoConfig();
 
@@ -25,7 +25,7 @@ export const ArtVideo: React.FC<{artFile: string}> = ({artFile}) => {
 			}}
 		>
 			<Sequence from={0} durationInFrames={videoConfig.durationInFrames}>
-				<Artwork artFile={artFile} />
+				<Artwork filePath={filePath} />
 			</Sequence>
 		</div>
 	);
